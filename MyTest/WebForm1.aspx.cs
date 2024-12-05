@@ -27,7 +27,7 @@ namespace MyTest
             if (data.Read())
             {
                 Session["dangnhap"] = data[0].ToString();
-                Response.Redirect("HienCB1.aspx");
+                Response.Redirect("WebForm2.aspx");
             }
             else
             {

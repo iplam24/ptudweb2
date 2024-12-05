@@ -11,7 +11,18 @@ namespace MyTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["dangnhap"]!=null)
+            {
+                txt_xinchao.Text = "Xin chào" + Session["dangnhap"];
+                hyperdangxuat.Visible= true;
+                hyperdangxuat.NavigateUrl = "dangxuat.aspx";
+            }
+            else
+            {
+                txt_xinchao.Text = "";
+                hyperdangxuat.Text="Đăng nhập";
+                hyperdangxuat.NavigateUrl = "WebForm1.aspx";
+            }
         }
     }
 }

@@ -21,7 +21,8 @@
             <a href="#">Sản phẩm</a>
             <a href="HienCB1.aspx">Khuyến mãi</a>
             <a href="#">Giỏ hàng</a>
-            <a href="#">Đăng nhập</a>
+            <asp:Label ID="txt_xinchao" runat="server"></asp:Label>
+            <asp:HyperLink ID="hyperdangxuat" runat="server">Đăng xuất</asp:HyperLink>
         </nav>
     </header>
      
