@@ -1,0 +1,15 @@
+﻿body {
+}
+table{
+    border:1px solid blue;
+
+}
+td {
+    border: 1px solid blue;
+}
+.tieude{
+    background-color:blue;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
